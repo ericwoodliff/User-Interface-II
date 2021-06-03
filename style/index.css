@@ -88,3 +88,61 @@ h2 {
     height: auto;
 }
 
+.four {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 1em;
+}
+
+.left {
+    border-style: dotted;
+    border: 8px solid #555;
+    margin-left:-1.8em;
+}
+
+.left-center {
+    border-style: dotted;
+    border: 8px solid #555;
+    
+}
+.middle {
+    border-style: dotted;
+    border: 8px solid #555;
+    
+}
+
+.right {
+    border-style: dotted;
+    border: 8px solid #555;
+    
+}
+.p-right {
+    padding-right: 1.5em;
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: rgb(189, 189, 189);
+    
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.myButton {
+    box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#007dc1;
+	border-radius:3px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+}
