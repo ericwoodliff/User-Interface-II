@@ -53,9 +53,7 @@ h2 {
     background: #333;
     color: aliceblue;
     border: 2px white;
-    margin: 10px;
-    
-    
+    margin: 10px;  
 }
 
 .home:hover {
@@ -91,6 +89,10 @@ h2 {
     border-style: dotted;
     height: auto;
 }
+
+.bigimage:hover {
+    transform: scale(0.95);
+}
 /* Gallery */
 .four {
     display: flex;
@@ -106,22 +108,38 @@ h2 {
     border: 8px solid #555;
     margin-left:-1.8em;
 }
+.left:hover {
+    transform: scale(0.95);
+}
 
 .left-center {
     border-style: dotted;
     border: 8px solid #555;
     
 }
+
+.left-center:hover {
+    transform: scale(0.95);
+}
+
 .middle {
     border-style: dotted;
     border: 8px solid #555;
     
 }
 
+.middle:hover {
+    transform: scale(0.95);
+}
+
 .right {
     border-style: dotted;
     border: 8px solid #555;
     
+}
+
+.right:hover {
+    transform: scale(0.95);
 }
 .p-right {
     padding-right: 1.5em;
