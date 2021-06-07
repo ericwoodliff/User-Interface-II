@@ -43,9 +43,6 @@ h2 {
     border: #333;
     padding: 1px;
     margin: 10px;
-    
-    
-    
 }
 
 .home {
@@ -106,7 +103,7 @@ h2 {
 .left {
     border-style: dotted;
     border: 8px solid #555;
-    margin-left:-1.8em;
+    
 }
 .left:hover {
     transform: scale(0.95);
@@ -163,4 +160,41 @@ footer {
     display: inline-block;
     font-size: 20px;
     font-weight: bolder;
+}
+
+/*Responsive Styles*/
+/*Tablet*/
+@media(max-width: 800px) {
+      
+}
+/*Phone*/
+@media(max-width: 500px) {
+    
+    .nav {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5em;
+        width: auto;
+        border: #333;
+        padding: 1px;
+        margin: 10px;
+}
+    .intro, p {
+        font-size: 13px;
+    }
+    
+    .h2 {
+        align-items: center;
+    }
+
+     .left .right  {
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        
+        
+    
+}
 }
