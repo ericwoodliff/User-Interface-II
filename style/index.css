@@ -1,1 +1,200 @@
 /* Add CSS styling here */
+
+
+
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    max-width: 100%;
+}
+/* General Styling*/
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Indie Flower';
+    color: #333;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 3em;
+    text-transform: capitalize;
+    padding: 1%;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.top {
+    padding: 1%;
+}
+/* Navigation Bar */
+.nav {
+    font-size: 1.5em;
+    width: auto;
+    border: #333;
+    padding: 1px;
+    margin: 10px;
+}
+
+.home {
+    padding: .5%;
+    background: #333;
+    color: aliceblue;
+    border: 2px white;
+    margin: 10px;  
+}
+
+.home:hover {
+    background: white;
+    color: #333;
+}
+
+.about {
+    padding: 1%;
+}
+
+.contact {
+    padding: 1.5%;
+}
+
+.project {
+    padding: 1.5%;
+}
+
+/* Body */
+
+.paragraph {
+    margin: auto;
+    width: 80%;
+    padding: 1.2em;
+    font-size: 1.5em;  
+}
+
+
+.bigimage {
+    width:100;
+    border: 8px solid #555;
+    border-style: dotted;
+    height: auto;
+}
+
+.bigimage:hover {
+    transform: scale(0.95);
+}
+/* Gallery */
+.four {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 1em;
+}
+
+.left {
+    border-style: dotted;
+    border: 8px solid #555;
+    
+}
+.left:hover {
+    transform: scale(0.95);
+}
+
+.left-center {
+    border-style: dotted;
+    border: 8px solid #555;
+    
+}
+
+.left-center:hover {
+    transform: scale(0.95);
+}
+
+.middle {
+    border-style: dotted;
+    border: 8px solid #555;
+    
+}
+
+.middle:hover {
+    transform: scale(0.95);
+}
+
+.right {
+    border-style: dotted;
+    border: 8px solid #555;
+    
+}
+
+.right:hover {
+    transform: scale(0.95);
+}
+.p-right {
+    padding-right: 1.5em;
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: rgb(189, 189, 189);
+    
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.myButton {
+    background-color: #ffffff; /* Green */
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/*Responsive Styles*/
+/*Tablet*/
+@media(max-width: 800px) {
+      
+}
+/*Phone*/
+@media(max-width: 500px) {
+    
+    .nav {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5em;
+        width: auto;
+        border: #333;
+        padding: 1px;
+        margin: 10px;
+}
+    .intro, p {
+        font-size: 13px;
+    }
+    
+    .h2 {
+        align-items: center;
+    }
+
+     .left .right  {
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        
+        
+    
+}
+}
